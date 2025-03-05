@@ -3,4 +3,4 @@
   tasks: 
   - name: ping hello world
     ansible.builtin.debug:
-    msh: "Hello World"
+    msg: "Hello World"
