@@ -5,13 +5,18 @@
     GREET: "PLAY"
   vars_files:
   - course-vars.yaml
-  vars_prompt:
-  - name: GREET
-    prompt: Enter the value
-    private: false
+  # vars_prompt:
+  # - name: GREET
+  #   prompt: Enter the value
+  #   private: false
   tasks:
   - name: print the variable
     # vars:
     #   GREET: "TASK"
     ansible.builtin.debug:
       msg: "Hello from {{ GREET }}"
+
+
+#1. command line or args
+#2. task level
+#3. prompt level
