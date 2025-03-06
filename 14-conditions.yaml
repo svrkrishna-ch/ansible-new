@@ -2,9 +2,14 @@
   hosts: local
   connection: local
   vars:
-    my_number: 15
+    my_number: 09
   tasks:
-  - name: print if number is grater than 10
+  - name: print if number is greater than 10
     ansible.builtin.debug:
       msg: "Given number {{ my_number }} is greater than 10"
     when: my_number > 10
+    
+  - name: print if number is less than or equal to 10
+    ansible.builtin.debug:
+      msg: "Given number {{ my_number }} is less than or equal to 10"
+    when: my_number <= 10
