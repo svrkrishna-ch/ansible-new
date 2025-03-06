@@ -3,7 +3,7 @@
   connection: local
   vars:
     course_name: "DevOps with AWS" #string
-    duration: "120" #number
+    duration: 120 #number
     topics: # list, [] means list
     - linux
     - ansible
