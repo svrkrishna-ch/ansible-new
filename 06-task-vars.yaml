@@ -1,13 +1,13 @@
 - name: variables
   hosts: local
   connection: local
-  vars:
+  vars: # Play level variables, global variables
     COURSE: "DevOps with AWS"
     DURATION: "120 hours"
     TRAINEE: "Krishna"
   tasks:
   - name: print the variables
-    vars:
+    vars: # Task level or local variables, accessible within task only
       COURSE: "Ansible"
     ansible.builtin.debug:
       msg: "Course is {{ COURSE }}, Duration is {{ DURATION }}, trainee is {{ TRAINEE }}"
