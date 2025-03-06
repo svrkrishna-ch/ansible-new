@@ -4,7 +4,7 @@
   vars_prompt:
   - name: COURSE
     prompt: Please enter course name
-    private: false
+    private: false # it is not confidential info
   - name: DURATION
     prompt: Please enter duration time
   - name: TRAINEE
@@ -13,4 +13,4 @@
   - name: print course info
     ansible.builtin.debug:
       msg: "Course is {{ COURSE }}, Duration is {{ DURATION }}, trainee is {{ TRAINEE }}"
-  
+      
