@@ -1,0 +1,45 @@
+{
+    "msg": {
+        "changed": true,
+        "cmd": [
+            "ls",
+            "-ltr"
+        ],
+        "delta": "0:00:00.004738",
+        "end": "2025-03-07 03:27:37.858253",
+        "failed": false,
+        "msg": "",
+        "rc": 0,
+        "start": "2025-03-07 03:27:37.853515",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "total 136\n-rw-r--r-- 1 ec2-user ec2-user   245 Mar  6 23:54 07-vars-files.yaml\n-rw-r--r-- 1 ec2-user ec2-user   581 Mar  6 23:54 06-task-vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user   295 Mar  6 23:54 05-vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user   398 Mar  6 23:54 04-multi-play.yaml\n-rw-r--r-- 1 ec2-user ec2-user   272 Mar  6 23:54 03-nginx.yaml\n-rw-r--r-- 1 ec2-user ec2-user   125 Mar  6 23:54 02-hello-world.yaml\n-rw-r--r-- 1 ec2-user ec2-user   111 Mar  6 23:54 01-playbook.yaml\n-rw-r--r-- 1 ec2-user ec2-user    85 Mar  6 23:54 course-vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user   455 Mar  6 23:54 14-conditions.yaml\n-rw-r--r-- 1 ec2-user ec2-user   581 Mar  6 23:54 13-data-types.yaml\n-rw-r--r-- 1 ec2-user ec2-user   463 Mar  6 23:54 12-vars-preference.yaml\n-rw-r--r-- 1 ec2-user ec2-user   210 Mar  6 23:54 11-vars-args.yaml\n-rw-r--r-- 1 ec2-user ec2-user   211 Mar  6 23:54 10-vars-inventory.yaml\n-rw-r--r-- 1 ec2-user ec2-user   213 Mar  6 23:54 09-vars-inventory.yaml\n-rw-r--r-- 1 ec2-user ec2-user   445 Mar  6 23:54 08-vars-prompt.yaml\n-rw-r--r-- 1 ec2-user ec2-user   130 Mar  7 00:02 15-facts.yaml\n-rw-r--r-- 1 ec2-user ec2-user   354 Mar  7 00:04 inventory.ini\n-rw-r--r-- 1 ec2-user ec2-user 41770 Mar  7 00:17 facts.json\n-rw-r--r-- 1 ec2-user ec2-user   340 Mar  7 00:17 16-conditions.yaml\n-rw-r--r-- 1 ec2-user ec2-user   198 Mar  7 00:24 17-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user   234 Mar  7 01:21 18-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user   360 Mar  7 01:21 19-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user  1412 Mar  7 02:41 20-filters.yaml\n-rw-r--r-- 1 ec2-user ec2-user   471 Mar  7 03:27 21-shell-command.yaml",
+        "stdout_lines": [
+            "total 136",
+            "-rw-r--r-- 1 ec2-user ec2-user   245 Mar  6 23:54 07-vars-files.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   581 Mar  6 23:54 06-task-vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   295 Mar  6 23:54 05-vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   398 Mar  6 23:54 04-multi-play.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   272 Mar  6 23:54 03-nginx.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   125 Mar  6 23:54 02-hello-world.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   111 Mar  6 23:54 01-playbook.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user    85 Mar  6 23:54 course-vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   455 Mar  6 23:54 14-conditions.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   581 Mar  6 23:54 13-data-types.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   463 Mar  6 23:54 12-vars-preference.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   210 Mar  6 23:54 11-vars-args.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   211 Mar  6 23:54 10-vars-inventory.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   213 Mar  6 23:54 09-vars-inventory.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   445 Mar  6 23:54 08-vars-prompt.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   130 Mar  7 00:02 15-facts.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   354 Mar  7 00:04 inventory.ini",
+            "-rw-r--r-- 1 ec2-user ec2-user 41770 Mar  7 00:17 facts.json",
+            "-rw-r--r-- 1 ec2-user ec2-user   340 Mar  7 00:17 16-conditions.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   198 Mar  7 00:24 17-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   234 Mar  7 01:21 18-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   360 Mar  7 01:21 19-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user  1412 Mar  7 02:41 20-filters.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   471 Mar  7 03:27 21-shell-command.yaml"
+        ]
+    }
+}
