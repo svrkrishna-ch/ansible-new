@@ -7,8 +7,10 @@
      msg: "Hello {{ person | default ('Krishna') }}"
 
   - name: convert string into list
+    tags: 
+    - fruitstask
     vars:
-      fruits: "apple, banana,orange" #string
+      fruits: "apple, banana, orange" #string
     ansible.builtin.debug:
       msg: "Fruits are: {{ fruits | split(',') }}"
   - name: convert map into list
